@@ -1,0 +1,25 @@
+{
+  "name": "js-quests",
+  "version": "1.0.0",
+  "description": "js-quests project",
+  "scripts": {
+    "clean": "rm -rf ./dist && rm -rf ./.parcel-cache",
+    "start": "npm run clean && parcel ./src/*.html --no-source-maps --open",
+    "build": "npm run clean && parcel build ./src/*.html --public-url ./ --no-source-maps",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "author": "NJul",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "gh-pages": "^3.2.0",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 0.5%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
