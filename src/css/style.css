@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.rounded {
+  border-radius: 6px;
+}
