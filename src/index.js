@@ -3,6 +3,6 @@ import './css/main.css';
 import './css/style.css';
 import './scss/index.scss';
 
-import './js/autoReplace.js';
+import './js/palmTreen.js';
 
-console.log('index.js Is it work?');
+// console.log('index.js Is it work?');
