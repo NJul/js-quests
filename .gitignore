@@ -2,3 +2,7 @@ dist
 .parcel-cache
 node_modules
 package-lock.json
+
+fibonacci.js
+autoTags.js
+chooseBestDistance.js
