@@ -3,6 +3,7 @@ import './css/main.css';
 import './css/style.css';
 // import './scss/index.scss';
 
-import './js/humanReadableSeconds.js';
+// import './js/getPhraseByNum';
+import './js/jsisweird.js';
 
 // console.log('index.js Is it work?');
