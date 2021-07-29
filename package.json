@@ -6,7 +6,8 @@
     "clean": "rm -rf ./dist && rm -rf ./.parcel-cache",
     "start": "npm run clean && parcel ./src/*.html --no-source-maps --open",
     "build": "npm run clean && parcel build ./src/*.html --public-url ./ --no-source-maps",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "deploy-subdir": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
   },
   "author": "NJul",
   "license": "ISC",
